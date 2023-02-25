@@ -1,7 +1,7 @@
 {
   "variants": {
     "bites=0": {
-      "model": "galacticraft:block/moon_cheese_uneaten"
+      "model": "galacticraft:block/moon_cheese"
     },
     "bites=1": {
       "model": "galacticraft:block/moon_cheese_slice1"

@@ -1,44 +1,22 @@
 {
-  "textures": {
-    "particle": "galacticraft:block/cheese_2",
-    "bottom": "galacticraft:block/cheese_1",
-    "top": "galacticraft:block/cheese_1",
-    "side": "galacticraft:block/cheese_2",
-    "inside": "galacticraft:block/cheese_3"
-  },
-  "elements": [
-    {
-      "from": [
-        9,
-        0,
-        1
-      ],
-      "to": [
-        15,
-        8,
-        15
-      ],
-      "faces": {
-        "down": {
-          "texture": "#bottom",
-          "cullface": "down"
-        },
-        "up": {
-          "texture": "#top"
-        },
-        "north": {
-          "texture": "#side"
-        },
-        "south": {
-          "texture": "#side"
-        },
-        "west": {
-          "texture": "#inside"
-        },
-        "east": {
-          "texture": "#side"
+    "textures": {
+        "particle": "galacticraft:block/cheese_side",
+        "bottom": "galacticraft:block/cheese_bottom",
+        "top": "galacticraft:block/cheese_top",
+        "side": "galacticraft:block/cheese_side",
+        "inside": "galacticraft:block/cheese_inner"
+    },
+    "elements": [
+        {   "from": [ 9, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
         }
-      }
-    }
-  ]
+    ]
 }
