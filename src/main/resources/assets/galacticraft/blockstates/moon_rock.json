@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
-      "model": "galacticraft:block/moon_rock"
-    }
+      "": [
+        {
+          "model": "galacticraft:block/moon_rock"
+        },
+        {
+          "model": "galacticraft:block/moon_rock",
+          "y": 180
+        }
+     ]
   }
 }

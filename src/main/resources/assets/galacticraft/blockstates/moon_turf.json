@@ -1,7 +1,21 @@
 {
   "variants": {
-    "": {
-      "model": "galacticraft:block/moon_turf"
-    }
+    "": [
+      {
+        "model": "galacticraft:block/moon_turf"
+      },
+      {
+        "model": "galacticraft:block/moon_turf",
+        "y": 90
+      },
+      {
+        "model": "galacticraft:block/moon_turf",
+        "y": 180
+      },
+      {
+        "model": "galacticraft:block/moon_turf",
+        "y": 270
+      }
+    ]
   }
 }
