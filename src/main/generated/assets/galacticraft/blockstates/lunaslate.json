@@ -1,7 +1,12 @@
 {
   "variants": {
-    "": {
-      "model": "galacticraft:block/lunaslate"
-    }
+      "": [
+        {
+          "model": "galacticraft:block/lunaslate"
+        },
+        {
+          "model": "galacticraft:block/lunaslate_mirrored"
+        }
+     ]
   }
 }
