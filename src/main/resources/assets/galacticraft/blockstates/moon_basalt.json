@@ -1,7 +1,21 @@
 {
   "variants": {
-    "": {
-      "model": "galacticraft:block/moon_basalt"
-    }
+    "": [
+      {
+        "model": "galacticraft:block/moon_basalt"
+      },
+      {
+        "model": "galacticraft:block/moon_basalt",
+        "y": 90
+      },
+      {
+        "model": "galacticraft:block/moon_basalt",
+        "y": 180
+      },
+      {
+        "model": "galacticraft:block/moon_basalt",
+        "y": 270
+      }
+    ]
   }
 }
