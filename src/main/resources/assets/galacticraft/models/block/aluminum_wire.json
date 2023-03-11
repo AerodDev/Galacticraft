@@ -1,5 +1,5 @@
 {
-  "credit": "Made with Blockbench",
+  "parent": "block/block",
   "textures": {
     "0": "galacticraft:block/aluminum_wire",
     "particle": "galacticraft:block/aluminum_wire"

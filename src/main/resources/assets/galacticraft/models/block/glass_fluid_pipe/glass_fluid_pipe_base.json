@@ -1,4 +1,5 @@
 {
+  "parent": "block/block",
   "textures": {
     "particle": "galacticraft:block/glass_fluid_pipe/white",
     "color": "galacticraft:block/glass_fluid_pipe/white"
