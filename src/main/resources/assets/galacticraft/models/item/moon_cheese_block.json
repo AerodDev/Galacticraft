@@ -1,39 +1,6 @@
 {
-  "parent": "galacticraft:block/moon_cheese_uneaten",
-  "display": {
-    "firstperson_righthand": {
-      "rotation": [
-        0,
-        45,
-        0
-      ],
-      "translation": [
-        0,
-        3,
-        0
-      ],
-      "scale": [
-        0.40,
-        0.40,
-        0.40
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        0,
-        225,
-        0
-      ],
-      "translation": [
-        0,
-        3,
-        0
-      ],
-      "scale": [
-        0.40,
-        0.40,
-        0.40
-      ]
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "galacticraft:item/moon_cheese"
   }
 }
